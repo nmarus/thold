@@ -393,6 +393,7 @@ function thold_setup_database () {
 	$data['columns'][] = array('name' => 'custom_msg', 'type' => "int(2)", 'NULL' => false, 'default' => '0');
 	$data['columns'][] = array('name' => 'thold_alert_subj_cst', 'type' => 'varchar(512)', 'NULL' => true);
 	$data['columns'][] = array('name' => 'thold_alert_text_cst', 'type' => 'varchar(1024)', 'NULL' => true);
+	$data['columns'][] = array('name' => 'thold_normal_subj_cst', 'type' => 'varchar(512)', 'NULL' => true);
 	$data['columns'][] = array('name' => 'thold_warning_subj_cst', 'type' => 'varchar(512)', 'NULL' => true);
 	$data['columns'][] = array('name' => 'thold_warning_text_cst', 'type' => 'varchar(1024)', 'NULL' => true);
 	$data['columns'][] = array('name' => 'notify_extra', 'type' => 'varchar(512)', 'NULL' => true);
